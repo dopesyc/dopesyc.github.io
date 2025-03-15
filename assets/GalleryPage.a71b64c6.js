@@ -1,1 +1,0 @@
-import{Q as t}from"./QPage.fda7f637.js";import{I as a,J as r,K as o,N as s}from"./index.f6ecf3af.js";import"./render.8ffcf41a.js";const n={__name:"GalleryPage",setup(l){return(p,e)=>(a(),r(t,{class:"flex flex-center"},{default:o(()=>e[0]||(e[0]=[s(" Gallery ")])),_:1}))}};export{n as default};
