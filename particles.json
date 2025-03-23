@@ -4,7 +4,7 @@
       "value": 160,
       "density": {
         "enable": true,
-        "value_area": 800
+        "value_area": 200
       }
     },
     "color": {
@@ -14,7 +14,7 @@
       "type": "circle",
       "stroke": {
         "width": 0,
-        "color": "#000000"
+        "color": "#26a69a"
       },
       "polygon": {
         "nb_sides": 5
