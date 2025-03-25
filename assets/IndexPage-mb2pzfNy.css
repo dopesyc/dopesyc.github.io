@@ -1,0 +1,263 @@
+
+.orientation-display[data-v-426b8264] {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+.coordinate-box[data-v-426b8264] {
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
+  padding: 12px;
+  color: white;
+  font-family: monospace;
+  min-width: 120px;
+  position: relative;
+}
+.coordinate[data-v-426b8264] {
+  margin: 4px 0;
+}
+.label[data-v-426b8264] {
+  display: inline-block;
+  width: 20px;
+  color: #42b983;
+}
+.value[data-v-426b8264] {
+  margin-left: 8px;
+}
+.close-btn[data-v-426b8264] {
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  background: #ff4444;
+}
+.compass-vis[data-v-426b8264] {
+  width: 100px;
+  height: 100px;
+  border: 2px solid #42b983;
+  border-radius: 50%;
+  position: relative;
+  margin: 10px auto;
+}
+.needle[data-v-426b8264] {
+  position: absolute;
+  width: 2px;
+  height: 40px;
+  background: red;
+  left: 50%;
+  top: 10px;
+  transform-origin: bottom center;
+}
+
+.theme-default {
+  background-color: #ff6b35;
+  color: black;
+}
+.theme-tranquil {
+  background-color: #2e7d32;
+  color: #d4e4f0;
+}
+.theme-ecstatic {
+  background-color: #ffd700;
+  color: black;
+}
+.theme-reflective {
+  background-color: #4a235a;
+  color: #d4e4f0;
+}
+.theme-melancholic {
+  background-color: #1b4b6f;
+  color: #d4e4f0;
+}
+.stemplayer {
+  border: 2px solid black;
+
+  margin-bottom: 30px;
+
+  padding: 10px;
+
+  border-radius: 50px;
+
+  width: 65vw;
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center;
+}
+.stem-controls {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.stem-controls .q-btn {
+  border-radius: 50px;
+  min-width: 100px;
+}
+
+/* Add responsive design for mobile */
+@media (max-width: 600px) {
+.stemplayer {
+    width: 90vw;
+}
+.stem-controls {
+    flex-direction: column;
+}
+}
+
+/* Your styles remain unchanged */
+.theme-default {
+  background-color: #ff6b35;
+  color: black;
+}
+.theme-tranquil {
+  background-color: #2e7d32;
+  color: #d4e4f0;
+}
+.theme-ecstatic {
+  background-color: #ffd700;
+  color: black;
+}
+.theme-reflective {
+  background-color: #4a235a;
+  color: #d4e4f0;
+}
+.theme-melancholic {
+  background-color: #1b4b6f;
+  color: #d4e4f0;
+}
+.toneplayer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  padding: 15px;
+  border: 2px solid black;
+  border-radius: 50px;
+  margin-bottom: 30px;
+  width: 65vw;
+}
+.toneplayer .q-btn {
+  flex: 1 1 120px;
+  min-width: 120px;
+  text-transform: uppercase;
+  border-radius: 50px;
+}
+.tone-stop {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 10px;
+}
+@media (max-width: 600px) {
+.toneplayer {
+    width: 90vw;
+}
+}
+
+.theme-default {
+  background-color: #ff6b35;
+  color: black;
+}
+.theme-tranquil {
+  background-color: #2e7d32;
+  color: #d4e4f0;
+}
+.theme-ecstatic {
+  background-color: #ffd700;
+  color: black;
+}
+.theme-reflective {
+  background-color: #4a235a;
+  color: #d4e4f0;
+}
+.theme-melancholic {
+  background-color: #1b4b6f;
+  color: #d4e4f0;
+}
+.toneplayer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  padding: 15px;
+  border: 2px solid black;
+  border-radius: 50px;
+  margin-bottom: 30px;
+  width: 65vw;
+}
+.toneplayer .q-btn {
+  flex: 1 1 120px;
+  min-width: 120px;
+  text-transform: uppercase;
+  border-radius: 50px;
+}
+@media (max-width: 600px) {
+.toneplayer {
+    width: 90vw;
+}
+}
+.theme-default {
+  background-color: #ff6b35;
+  color: black;
+}
+.theme-tranquil {
+  background-color: #2e7d32;
+  color: #d4e4f0;
+}
+.theme-ecstatic {
+  background-color: #ffd700;
+  color: black;
+}
+.theme-reflective {
+  background-color: #4a235a;
+  color: #d4e4f0;
+}
+.theme-melancholic {
+  background-color: #1b4b6f;
+  color: #d4e4f0;
+}
+#particles-js {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: transparent;
+  z-index: 1;
+}
+.particles-page::after {
+  z-index: 0;
+  position: relative;
+  content: "";
+}
+.particles-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.component-styles {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 50vw;
+  width: 100%;
+  position: relative;
+  z-index: 2;
+  transform: translateY(-50px);
+}
+.logo-style {
+  max-width: 185px;
+  max-height: 145px;
+  margin-top: 50px;
+  filter: drop-shadow(1px 2px 2px rgb(0, 0, 0));
+  -webkit-user-select: none;
+          user-select: none;
+  pointer-events: none;
+}

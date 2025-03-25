@@ -1,0 +1,42 @@
+
+.mood-selector {
+  width: 65vw;
+  margin-bottom: 30px;
+}
+.popup-style-class {
+  background-color: #1a1a1a;
+  color: white;
+  border-radius: 50px;
+  text-align: center;
+}
+.header-style {
+  background-color: #1a1a1a;
+}
+.header-text {
+  max-width: 394px;
+  max-height: 54px;
+  -webkit-user-select: none;
+          user-select: none;
+  filter: drop-shadow(1px 2px 2px rgb(0, 0, 0));
+  user-select: none;
+  pointer-events: none;
+  margin: 2px auto;
+}
+.logo-style {
+  max-width: 185px;
+  max-height: 145px;
+}
+.mood-selector-container {
+  position: absolute;
+  top: -56px; /* Adjust based on desired placement */
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: fit-content;
+  z-index: 10;
+}
+.draw-class-style {
+  background-color: #00ced1;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+}
