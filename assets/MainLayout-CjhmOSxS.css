@@ -5,6 +5,10 @@
   justify-content: center;
   margin-bottom: 30px;
 }
+.q-select__dropdown-icon img {
+  width: 50px !important;
+  height: 50px !important;
+}
 .popup-style-class {
   background-color: #1a1a1a;
   color: white;
@@ -21,14 +25,14 @@
   background-color: #1a1a1a;
 }
 .header-text {
-  max-width: 394px;
-  max-height: 54px;
-  -webkit-user-select: none;
-          user-select: none;
+  width: 100%; /* Fill the width of the toolbar title */
+  height: 60px; /* Set a fixed height (adjust as needed) */
+  background: url("/icons/valencetitlenew3.svg") no-repeat center center;
+  background-size: contain; /* Scale the SVG proportionally */
+  margin: 2px auto; /* Center it within the container */
+  /* Optionally, add a drop-shadow or other effects */
   filter: drop-shadow(1px 2px 2px rgb(0, 0, 0));
-  user-select: none;
   pointer-events: none;
-  margin: 2px auto;
 }
 .logo-style {
   max-width: 185px;
