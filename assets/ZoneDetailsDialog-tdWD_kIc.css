@@ -1,0 +1,33 @@
+.zone-details-dialog .q-img[data-v-807fcec9] {
+  border-radius: 8px;
+}
+.zone-details-dialog .q-tab-panels[data-v-807fcec9] {
+  min-height: 400px;
+}
+.zone-details-dialog .image-gallery .zone-photo[data-v-807fcec9] {
+  transition: all 0.3s ease;
+}
+.zone-details-dialog .image-gallery .zone-photo[data-v-807fcec9]:hover {
+  transform: scale(1.02);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+.equipment-list .equipment-item .q-item__section--avatar[data-v-807fcec9] {
+  min-width: 48px;
+}
+.q-timeline .q-timeline__entry .q-timeline__subtitle[data-v-807fcec9] {
+  opacity: 0.7;
+}
+@media (max-width: 599px) {
+.zone-details-dialog .q-card-section[data-v-807fcec9] {
+    padding: 12px;
+}
+.zone-details-dialog .q-tab-panels[data-v-807fcec9] {
+    min-height: 300px;
+}
+}
+.body--dark .bg-blue-1[data-v-807fcec9] {
+  background-color: rgba(33, 150, 243, 0.1) !important;
+}
+.body--dark .bg-green-1[data-v-807fcec9] {
+  background-color: rgba(76, 175, 80, 0.1) !important;
+}
